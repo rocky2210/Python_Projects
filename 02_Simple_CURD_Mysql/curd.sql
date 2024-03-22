@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 22, 2024 at 09:00 AM
+-- Generation Time: Mar 22, 2024 at 11:23 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -39,8 +39,10 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `name`, `email`) VALUES
 (1, 'rocky', 'rocky@gmail.com'),
-(2, 'shree', 'shree@gmail.com'),
-(3, 'gayu', 'gayu@gmail.com');
+(2, 'sree', 'sree@gmail.com'),
+(3, 'gayu', 'gayu@gmail.com'),
+(5, 'rado', 'rado@gmail.com'),
+(6, 'subha', 'subha@gmail.com');
 
 --
 -- Indexes for dumped tables
@@ -60,7 +62,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
